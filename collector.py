@@ -5,23 +5,23 @@ from collections import defaultdict
 
 # ---------------- CONFIG ----------------
 
-HOST = "192.168.56.254"
-USER = "admin"
-PASSWORD = "pfsense"
+HOST = ("HOST IP")
+USER = ("USERNAME")
+PASSWORD =("PASSWORD")
 
 SNORT_ALERT_FILE = "/var/log/snort/snort_em162360/alert"
 
 CHECK_INTERVAL = 3
 TEMP_BLOCK_TIME = 5
 
-KALI_IP = "192.168.56.103"
+KALI_IP = "192.X.X.X"
 
-HOST_ONLY_NETWORK = "192.168.56."
+HOST_ONLY_NETWORK = "192.X.X.X"
 
 SAFE_IPS = [
-    "192.168.56.254",
-    "192.168.56.1",
-    "192.168.56.100",
+    "192.X.X.X",
+    "192.X.X.X",
+    "192.X.X.X",
     "0.0.0.0",
     "255.255.255.255"
 ]
